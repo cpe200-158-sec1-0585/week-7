@@ -14,7 +14,7 @@ namespace twozerofoureight
         public void Notify(Model m)
         {
             label1.Text = ((TwoZeroFourEightModel)m).Score.ToString();
-        }
+        } 
 
         public TwoZeroFourEightScoreView()
         {
